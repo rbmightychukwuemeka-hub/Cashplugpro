@@ -193,9 +193,9 @@ async def web_app_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif action == "get_wallet_data":
         await update.effective_message.reply_web_app(json.dumps({
             "balance": u["balance"],
-            "deposit_bank": settings["deposit_bank"],
-            "deposit_account": settings["deposit_account"],
-            "deposit_name": settings["deposit_name"],
+            "deposit_bank": settings["opay"],
+            "deposit_account": settings["9136098875"],
+            "deposit_name": settings["Simon Chukwuemeka Ezugwu"],
             "paystack_enabled": settings["paystack_enabled"],
             "paystack_public_key": settings["paystack_public_key"]
         }))
