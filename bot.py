@@ -8,7 +8,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 
 # === CONFIG ===
 BOT_TOKEN = os.getenv('BOT_TOKEN')  # Reads from Railway Variables
-ADMIN_IDS = [8204822480, 8770974330, 6031406805]
+ADMIN_IDS = [8770974330, 6031406805]
 WEBAPP_URL = "https://cashplugpro.netlify.app" # Updated to your new URL
 
 # === ADMIN CONTROLLED SETTINGS ===
