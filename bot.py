@@ -6,7 +6,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, WebAppI
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # === CONFIG ===
-BOT_TOKEN = "8204822480:AAGSeX2L5jBW0VpbEJv_TWtQwCG5ZGwS_dM"
+BOT_TOKEN = os.getenv('BOT_TOKEN')  # Reads from Railway Variables
 ADMIN_IDS = [8204822480, 8770974330, 6031406805]
 WEBAPP_URL = "https://cashplugpro.netlify.app" # Updated to your new URL
 
