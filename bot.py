@@ -19,8 +19,8 @@ settings = {
     "referral_bonus": 200,
     "listing_fee": 200,
     "deposit_bank": "Opay",
-    "deposit_account": "9066274784",
-    "deposit_name": "Cash Plug",
+    "deposit_account": "9136098875",
+    "deposit_name": "Simon Chukwuemeka Ezugwu",
     "vnum_markup": 50,
     # New settings from admin9090.html
     "platform_fee": 5.0,
